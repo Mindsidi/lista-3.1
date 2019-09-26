@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int i=1, x, z;
+    printf("Digita o numero que vc quer saber a tabuada: ");
+    scanf("%d", &x);
+
+    while(i<=10){
+        z=x*i;
+        printf("%d x %d = %d\n",x, i, z);
+        i++;
+    }
+
+    return 0;
+}

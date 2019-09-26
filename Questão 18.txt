@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int c, f;
+    printf("Digite a temperatura em Fahrenheit: ");
+    scanf("%d", &f);
+    c=(f-32)/1.8;
+    printf("Em Celsius a temperatura eh: %d\n", c);
+    return 0;
+}

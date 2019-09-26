@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int i=1, x, z;
+    printf("A tabuada do 4 eh:\n");
+    x=4;
+    while(i<=10){
+        z=x*i;
+        printf("%d x %d = %d\n",x, i, z);
+        i++;
+    }
+    return 0;
+}

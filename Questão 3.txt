@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int soma=-4, i, seila, foda=0;
+    for(i=1; i<100; i++){
+        if(i%4==0){
+    seila =seila + i;
+        }
+    }
+    printf("A Soma dos 100 primeiros numeros naturais eh: %i\n", seila);
+            printf("os multiplos de 4 menores que 100 sao:");
+
+    while(foda<=100){
+        soma =soma + 4;
+        foda++;
+        if(soma>=100){
+            printf("\n");
+            return 0;
+        }
+        printf("%d, ", soma);
+    }
+}

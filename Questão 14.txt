@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+  int num, i;
+    while(i<20){
+
+    num = rand() % 1000 + 1000;
+    if(num%11 == 5)
+    {
+     printf("%d\n", num);
+     i++;
+    }
+   }
+   return 0;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int num, i=0, a , b, c;
+    printf("Digite um numero");
+    scanf("%d", &a);
+    printf("Digite um numero");
+    scanf("%d", &b);
+    c=a-b;
+            num =a-1+rand() % c+1;
+
+            printf("%d\n", num);
+
+}

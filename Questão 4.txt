@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int i=1, x;
+    printf("Digite um numero para saber seus divisores: ");
+    scanf("%d", &x);
+    printf("os divisores de ");
+    printf("%d ", x);
+    printf("sao:");
+
+    while(i<=x){
+        if(x%i==0){
+            printf("%d, ", i);
+        }
+        i++;
+    }
+}
