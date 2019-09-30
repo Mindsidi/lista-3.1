@@ -1,0 +1,29 @@
+int main() {
+
+  int i, x, primo=0, a, b;
+  int div = 0;
+  x=0;
+while(x<=100){
+div = 0;
+  for (i = 1; i <= x; i++) {
+    if (x % i == 0) {
+     div++;
+    }
+  }
+
+  if (div == 2){
+    //printf("O numero %d eh primo!\n", x);
+    primo++;
+    if(primo==6){
+        a=x;
+    }
+    if(primo==12){
+        b=x;
+    }
+  }
+  //else
+    //printf("O numero %d nao eh primo!\n", x);
+x++;
+}
+printf("%d\n", b-a);
+}
