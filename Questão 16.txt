@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char s[50];
+    int i =0,tamanho = 0;
+
+    printf("\nDigite uma palavra:\n");
+    gets(s);
+    tamanho = strlen(s);
+
+    for(i = tamanho; i >= 0; i--)
+    {
+        if(s[i] == '{FONTE}')
+            s[i]='{FONTE}';
+
+        printf("%c", s[i]);
+    }
+    printf("\n");
+    return 0;
+};
