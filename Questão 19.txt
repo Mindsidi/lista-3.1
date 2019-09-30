@@ -7,8 +7,8 @@ int main()
     scanf("%d", &a);
     printf("Digite um numero");
     scanf("%d", &b);
-    c=a-b;
-            num =a-1+rand() % c+1;
+    c=a-b+1;
+            num =a+rand() % c;
 
             printf("%d\n", num);
 
