@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-    int i=1, x, h;
+int funcao(){
+  //
+   int i=1, x, h;
     printf("Digite um numero para saber seu fatorial: ");
     scanf("%d", &x);
     printf("O fatorial de ");
@@ -14,5 +15,9 @@ int main(){
         i++;
     }
     printf("%d\n", h);
-    return 0;
+    }
+//
+int main(){
+   
+   funcao();
 }
