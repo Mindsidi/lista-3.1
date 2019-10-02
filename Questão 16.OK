@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
-    char s[50];
+int funcao(){
+  //
+  char s[50];
     int i =0,tamanho = 0;
 
     printf("\nDigite uma palavra:\n");
@@ -18,5 +18,10 @@ int main()
         printf("%c", s[i]);
     }
     printf("\n");
-    return 0;
-};
+//
+}
+int main(){
+   
+   funcao();
+   return 0;
+}
