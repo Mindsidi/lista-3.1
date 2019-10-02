@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
-    int num, i=0, a , b, c;
+
+int funcao(){
+  //
+   int num, i=0, a , b, c;
     printf("Digite um numero");
     scanf("%d", &a);
     printf("Digite um numero");
@@ -12,4 +13,10 @@ int main()
 
             printf("%d\n", num);
 
+//
+}
+int main(){
+   
+   funcao();
+   return 0;
 }
