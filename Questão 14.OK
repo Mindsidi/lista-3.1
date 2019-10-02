@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
-  int num, i;
+
+int funcao(){
+  //
+   int num, i;
     while(i<20){
 
     num = rand() % 1000 + 1000;
@@ -12,5 +13,10 @@ int main()
      i++;
     }
    }
+//
+}
+int main(){
+   
+   funcao();
    return 0;
 }
