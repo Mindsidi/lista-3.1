@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+  //
+    char str[1000];
+    int c, i=0;
+
+    printf("Digite um numero.\n");
+    gets(str);
+    int  tamanho= strlen(str);
+    int certo=0;
+    printf("Vc digitou %d caracteres e eles ", tamanho);
+    while(i<=tamanho){
+
+        if ((str[i]>=42)&&(str[i]<=57))
+            certo++;
+        if((str[i]<=42)&&(str[i]>=47))
+             certo++;
+        if((str[i]>=0)&&(str[i]<=41))
+            certo--;
+
+        if((str[i]>=58)&&(str[i]>=127))
+            certo--;
+
+        i++;
+    }
+    certo++;
+    if(tamanho==certo){
+        printf("formam um numero\n");}
+    else {
+        printf("nao formam um numero\n");
+    }
+    printf("tamanho %d", tamanho);
+    printf("certo %d", certo);
+
+//
+}
+int main(){
+   
+   funcao();
+   return 0;
+}
