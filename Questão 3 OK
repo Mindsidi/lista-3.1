@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-    int soma=-4, i, seila, foda=0;
+int funcao(){
+  //
+ int soma=-4, i, seila, foda=0;
     for(i=1; i<100; i++){
         if(i%4==0){
     seila =seila + i;
@@ -20,4 +21,9 @@ int main(){
         }
         printf("%d, ", soma);
     }
+}
+//
+int main(){
+   
+   funcao();
 }
