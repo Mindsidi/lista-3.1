@@ -13,11 +13,11 @@ int funcao(){
     printf("Vc digitou %d caracteres e eles ", tamanho);
     while(i<=tamanho){
 
-        if ((str[i]>=42)&&(str[i]<=57))
+        if ((str[i]>=48)&&(str[i]<=57))
             certo++;
-        if((str[i]<=42)&&(str[i]>=47))
+        if((str[i]<=32)&&(str[i]>=47))
              certo++;
-        if((str[i]>=0)&&(str[i]<=41))
+        if((str[i]>=0)&&(str[i]<=47))
             certo--;
 
         if((str[i]>=58)&&(str[i]>=127))
@@ -32,7 +32,7 @@ int funcao(){
         printf("nao formam um numero\n");
     }
     printf("tamanho %d", tamanho);
-    printf("certo %d", certo);
+ //   printf("certo %d", certo);
 
 //
 }
