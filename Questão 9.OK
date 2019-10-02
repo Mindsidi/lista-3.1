@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
-    int i=13, divisor=0, media=0, z;
+
+int funcao(){
+  //
+      int i=13, divisor=0, media=0, z;
     while(i<73){
         if(i%2==0){
             media=media+i;
@@ -12,5 +13,9 @@ int main()
     }
     z=media/divisor;
     printf("%d\n", z);
-
+//
+}
+int main(){
+   
+   funcao();
 }
