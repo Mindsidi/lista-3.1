@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-    int c, f;
+int funcao(){
+  //
+   int c, f;
     printf("Digite a temperatura em Celsius: ");
     scanf("%d", &c);
     f=(9*c+160)/5;
     printf("Em Fahrenheit a temperatura eh: %d\n", f);
-    return 0;
+//
+}
+int main(){
+   
+   funcao();
+   return 0;
 }
