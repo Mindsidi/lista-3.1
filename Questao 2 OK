@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-    int soma=0, i;
+int funcao(){
+
+ int soma=0, i;
     while(i<=200){
         soma =soma + 7;
         i++;
@@ -10,7 +11,13 @@ int main(){
             printf("\n");
             return 0;
         }
-        printf("%d, ", soma);
-    }
+        printf("%d, ", soma);   }
+}
+
+int main(){
+   
+funcao();
+
+
     return 0;
 }
