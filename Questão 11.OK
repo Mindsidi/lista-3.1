@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-
-  int i, x;
+int funcao(){
+  //
+      int i, x;
   int div = 0;
 
   do {
@@ -23,5 +23,9 @@ int main() {
   else
     printf("O numero %d nao eh primo!\n", x);
 
-  return 0;
+//
+}
+int main(){
+   
+   funcao();
 }
