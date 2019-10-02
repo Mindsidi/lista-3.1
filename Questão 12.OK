@@ -1,6 +1,9 @@
-int main() {
+#include <stdio.h>
+#include <stdlib.h>
 
-  int i, x, primo=0, a, b;
+int funcao(){
+  //
+     int i, x, primo=0, a, b;
   int div = 0;
   x=0;
 while(x<=100){
@@ -26,4 +29,9 @@ div = 0;
 x++;
 }
 printf("%d\n", b-a);
+//
+}
+int main(){
+   
+   funcao();
 }
