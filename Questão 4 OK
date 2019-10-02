@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-    int i=1, x;
+int funcao(){
+  //
+  int i=1, x;
+  
     printf("Digite um numero para saber seus divisores: ");
     scanf("%d", &x);
     printf("os divisores de ");
@@ -15,4 +17,9 @@ int main(){
         }
         i++;
     }
+}
+//
+int main(){
+   
+   funcao();
 }
