@@ -1,0 +1,38 @@
+//Questão 13 Fibonacci 
+
+#include <stdio.h>
+
+int funcao(){
+
+int  n=0,i=0;
+float soma=1;
+
+  puts("Digite a quantidade de numeros \n");
+    scanf("%d",&n);
+
+float numero[n];
+
+  numero[0]=0;
+  numero[1] =1;
+
+  puts("valor 1 = 0 \nvalor 2 1\n");
+
+  for(i=2;i<n;i++){
+
+   numero[i]=numero[i-1]+numero[i-2];
+   soma=soma+numero[i];
+
+  printf("valor %d %0.f\n",i,numero[i] );
+}
+
+printf("\n\nA soma dessa budega e igual a %0.f",soma);
+
+}
+
+
+int main(void) {
+
+funcao();
+
+  return 0;
+}
