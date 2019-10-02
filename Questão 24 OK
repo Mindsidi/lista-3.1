@@ -1,0 +1,34 @@
+/*Questão 24 Prepare uma função que receba um literal em um array e o rearrange de trás para frente
+*/
+
+int funcao(){
+
+ int x=0,i=0;
+ char frase[100];
+
+  puts("Digite uma frase \n\n");
+   gets(frase);
+
+ x= strlen (frase);
+  
+puts(frase);
+
+ for(i=x;i>=0;i--){
+
+	printf("%c",frase[i]);
+ 
+} 
+
+}
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+
+  funcao ();
+
+
+  return 0;
+}
