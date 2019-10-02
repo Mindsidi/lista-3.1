@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
-int main(){
+int funcao(){
+  //
     char dado[40], cop[40];
     int i, tamanho, j;
     printf("Desenhar um gráfico na horizontal: \n");
@@ -19,4 +20,10 @@ int main(){
             printf("\n");
         }
     }
+//
+}
+int main(){
+   
+   funcao();
+   return 0;
 }
