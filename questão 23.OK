@@ -1,0 +1,32 @@
+//questao 23 Prepare um programa que leia uma frase do teclado e informe quantas caracteres e palavras foram digitadas. 
+
+#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int funcao(){
+  //
+  char frase[70];
+ int tamanho=0,i=0,red=0;
+
+    puts("Digite uma frase"); 
+    fgets(frase,70,stdin); 
+
+for(i=0;i<70;i++){  
+
+  if(frase[i]==32){  //analisa se foi colocado um espaço
+        red++;  
+  }
+}
+tamanho=strlen(frase)-1; //recebe tamanho da string
+
+puts("numero de caracteres =");
+printf("%d\nnumero de palavras = %d",tamanho-red,red+1); //printa o numero de caracteres e o numero de palavras
+
+//
+}
+int main(){
+   
+   funcao();
+   return 0;
+}
