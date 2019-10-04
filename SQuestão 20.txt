@@ -1,1 +1,46 @@
-1
+#include <stdio.h>
+
+int main(void) {
+    int i;
+    int n,d, y=1;
+    int primo;
+    int tmp;
+
+    primo = 1;
+    i = 1;
+    printf("Digite n: ");
+    scanf("%d", &n);
+    d=0;
+    while ( n > d ) {
+    tmp = 2;
+    i = 0;
+    primo++;
+        while ( tmp < primo )
+        {
+            if ( primo % tmp == 0 )
+            {
+                primo++;
+                tmp = 2;
+            }
+            tmp++;
+        }
+
+        while ( n % primo == 0 )
+        {
+            i++;
+            n = n / primo;
+        }
+        if(i>=1){
+            while (y<=i) {
+                printf("%dx", primo);
+                y++;
+            }
+            y=1;
+
+        }
+
+        d++;
+    }
+
+    return 0;
+}
