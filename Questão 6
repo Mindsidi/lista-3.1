@@ -8,7 +8,7 @@ int funcao(){
     scanf("%d", &l);
     while(i<l){
         if(i*i>l){
-            printf("%d\n", i);
+            printf("esse numero:%d, ao quadrado eh maior que o que voce digitou\n", i);
             return 0;
         }
         else {
