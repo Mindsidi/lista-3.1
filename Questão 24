@@ -1,5 +1,3 @@
-/*Questão 24 Prepare uma função que receba um literal em um array e o rearrange de trás para frente
-*/
 
 int funcao(){
 
