@@ -10,6 +10,7 @@ int main(void) {
     i = 1;
     printf("Digite n: ");
     scanf("%d", &n);
+    printf("%d=", n);
     d=0;
     while ( n > d ) {
     tmp = 2;
@@ -41,6 +42,9 @@ int main(void) {
 
         d++;
     }
+    printf("\n");
+    return 0;
+}
 
     return 0;
 }
