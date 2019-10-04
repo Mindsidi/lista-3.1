@@ -7,114 +7,114 @@ int main()
     char texto[100];
     int i,c, contar1=0, contar2=0, contar3=0, contar4=0, contar5=0, contar6=0, contar7=0, contar8=0, contar9=0, contar10=0, contar11=0, contar12=0, contar13=0, contar14=0,contar15=0,contar16=0, contar17=0,contar18=0,contar19=0,contar20=0,contar21=0,contar22=0,contar23=0,contar24=0, contar25=0, contar26=0;
     printf("Digete umas palavras ou letras aleatorias para saber quantos |a| tem\n");
-    scanf(" %s", texto);
+    fgets(texto, 100, stdin);
     c = strlen(texto);
-    for(i=0;texto[i]!= '\0'; i++ ) {
-        if((texto[i]=='a') || (texto[i]=='A')) {
-        contar1++;
-        }
-        if((texto[i]=='b') || (texto[i]=='B')) {
-        contar2++;
-        }
-        if((texto[i]=='c') || (texto[i]=='C')) {
-        contar3++;
-        }
-        if((texto[i]=='d') || (texto[i]=='D')) {
-        contar4++;
-        }
-        if((texto[i]=='e') || (texto[i]=='E')) {
-        contar5++;
-        }
-        if((texto[i]=='f') || (texto[i]=='F')) {
-        contar6++;
-        }
-        if((texto[i]=='g') || (texto[i]=='G')) {
-        contar7++;
-        }
-        if((texto[i]=='h') || (texto[i]=='H')) {
-        contar8++;
-        }
-        if((texto[i]=='i') || (texto[i]=='I')) {
-        contar9++;
-        }
-        if((texto[i]=='j') || (texto[i]=='J')) {
-        contar10++;
-        }
-        if((texto[i]=='k') || (texto[i]=='K')) {
-        contar11++;
-        }
-        if((texto[i]=='l') || (texto[i]=='L')) {
-        contar12++;
-        }
-        if((texto[i]=='m') || (texto[i]=='M')) {
-        contar13++;
-        }
-        if((texto[i]=='n') || (texto[i]=='N')) {
-        contar14++;
-        }
-        if((texto[i]=='o') || (texto[i]=='O')) {
-        contar15++;
-        }
-        if((texto[i]=='p') || (texto[i]=='P')) {
-        contar16++;
-        }
-        if((texto[i]=='q') || (texto[i]=='Q')) {
-        contar17++;
-        }
-        if((texto[i]=='r') || (texto[i]=='R')) {
-        contar18++;
-        }
-        if((texto[i]=='s') || (texto[i]=='S')) {
-        contar19++;
-        }
-        if((texto[i]=='t') || (texto[i]=='T')) {
-        contar20++;
-        }
-        if((texto[i]=='u') || (texto[i]=='U')) {
-        contar21++;
-        }
-        if((texto[i]=='v') || (texto[i]=='V')) {
-        contar22++;
-        }
-        if((texto[i]=='w') || (texto[i]=='W')) {
-        contar23++;
-        }
-        if((texto[i]=='x') || (texto[i]=='X')) {
-        contar24++;
-        }
-        if((texto[i]=='y') || (texto[i]=='Y')) {
-        contar25++;
-        }
-        if((texto[i]=='z') || (texto[i]=='Z')) {
-        contar26++;
-        }
+    for(i=0;i<c; i++ ) {
+            if((texto[i]=='a') || (texto[i]=='A')) {
+                contar1++;
+            }
+            if((texto[i]=='b') || (texto[i]=='B')) {
+                contar2++;
+            }
+            if((texto[i]=='c') || (texto[i]=='C')) {
+                contar3++;
+            }
+            if((texto[i]=='d') || (texto[i]=='D')) {
+                contar4++;
+            }
+            if((texto[i]=='e') || (texto[i]=='E')) {
+                contar5++;
+            }
+            if((texto[i]=='f') || (texto[i]=='F')) {
+                contar6++;
+            }
+            if((texto[i]=='g') || (texto[i]=='G')) {
+                contar7++;
+            }
+            if((texto[i]=='h') || (texto[i]=='H')) {
+                contar8++;
+            }
+            if((texto[i]=='i') || (texto[i]=='I')) {
+                contar9++;
+            }
+            if((texto[i]=='j') || (texto[i]=='J')) {
+                contar10++;
+            }
+            if((texto[i]=='k') || (texto[i]=='K')) {
+                contar11++;
+            }
+            if((texto[i]=='l') || (texto[i]=='L')) {
+                contar12++;
+            }
+            if((texto[i]=='m') || (texto[i]=='M')) {
+                contar13++;
+            }
+            if((texto[i]=='n') || (texto[i]=='N')) {
+                contar14++;
+            }
+            if((texto[i]=='o') || (texto[i]=='O')) {
+                contar15++;
+            }
+            if((texto[i]=='p') || (texto[i]=='P')) {
+                contar16++;
+            }
+            if((texto[i]=='q') || (texto[i]=='Q')) {
+                contar17++;
+            }
+            if((texto[i]=='r') || (texto[i]=='R')) {
+                contar18++;
+            }
+            if((texto[i]=='s') || (texto[i]=='S')) {
+                contar19++;
+            }
+            if((texto[i]=='t') || (texto[i]=='T')) {
+                contar20++;
+            }
+            if((texto[i]=='u') || (texto[i]=='U')) {
+                contar21++;
+            }
+            if((texto[i]=='v') || (texto[i]=='V')) {
+                contar22++;
+            }
+            if((texto[i]=='w') || (texto[i]=='W')) {
+                contar23++;
+            }
+            if((texto[i]=='x') || (texto[i]=='X')) {
+                contar24++;
+            }
+            if((texto[i]=='y') || (texto[i]=='Y')) {
+                contar25++;
+            }
+            if((texto[i]=='z') || (texto[i]=='Z')) {
+                contar26++;
+            }
 
+        }
+        printf("\nnumeros de a = %d\n", contar1);
+        printf("\nnumeros de b = %d\n", contar2);
+        printf("\nnumeros de c = %d\n", contar3);
+        printf("\nnumeros de d = %d\n", contar4);
+        printf("\nnumeros de e = %d\n", contar5);
+        printf("\nnumeros de f = %d\n", contar6);
+        printf("\nnumeros de g = %d\n", contar7);
+        printf("\nnumeros de h = %d\n", contar8);
+        printf("\nnumeros de i = %d\n", contar9);
+        printf("\nnumeros de j = %d\n", contar10);
+        printf("\nnumeros de k = %d\n", contar11);
+        printf("\nnumeros de l = %d\n", contar12);
+        printf("\nnumeros de m = %d\n", contar13);
+        printf("\nnumeros de n = %d\n", contar14);
+        printf("\nnumeros de o = %d\n", contar15);
+        printf("\nnumeros de p = %d\n", contar16);
+        printf("\nnumeros de q = %d\n", contar17);
+        printf("\nnumeros de r = %d\n", contar18);
+        printf("\nnumeros de s = %d\n", contar19);
+        printf("\nnumeros de t = %d\n", contar20);
+        printf("\nnumeros de u = %d\n", contar21);
+        printf("\nnumeros de v = %d\n", contar22);
+        printf("\nnumeros de w = %d\n", contar23);
+        printf("\nnumeros de x = %d\n", contar24);
+        printf("\nnumeros de y = %d\n", contar25);
+        printf("\nnumeros de z = %d\n", contar26);
+        return 0;
     }
-    printf("\nnumeros de a = %d\n", contar1);
-    printf("\nnumeros de b = %d\n", contar2);
-    printf("\nnumeros de c = %d\n", contar3);
-    printf("\nnumeros de d = %d\n", contar4);
-    printf("\nnumeros de e = %d\n", contar5);
-    printf("\nnumeros de f = %d\n", contar6);
-    printf("\nnumeros de g = %d\n", contar7);
-    printf("\nnumeros de h = %d\n", contar8);
-    printf("\nnumeros de i = %d\n", contar9);
-    printf("\nnumeros de j = %d\n", contar10);
-    printf("\nnumeros de k = %d\n", contar11);
-    printf("\nnumeros de l = %d\n", contar12);
-    printf("\nnumeros de m = %d\n", contar13);
-    printf("\nnumeros de n = %d\n", contar14);
-    printf("\nnumeros de o = %d\n", contar15);
-    printf("\nnumeros de p = %d\n", contar16);
-    printf("\nnumeros de q = %d\n", contar17);
-    printf("\nnumeros de r = %d\n", contar18);
-    printf("\nnumeros de s = %d\n", contar19);
-    printf("\nnumeros de t = %d\n", contar20);
-    printf("\nnumeros de u = %d\n", contar21);
-    printf("\nnumeros de v = %d\n", contar22);
-    printf("\nnumeros de w = %d\n", contar23);
-    printf("\nnumeros de x = %d\n", contar24);
-    printf("\nnumeros de y = %d\n", contar25);
-    printf("\nnumeros de z = %d\n", contar26);
-    return 0;
-}
