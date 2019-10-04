@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    int g, t=0, j, eixox, eixoy;
+    char str[40], mostrar[40];
+    j=0;
+    while(j<40){
+        str[j] = 0;
+        mostrar[j] = 0;
+        j++;
+    }
+
+    printf("Diga quais sao os numeros para a construcao do grafico: \n");
+    fgets(str, 40, stdin);
+    j=0;
+    while(j<strlen(str)){
+        if(str[j]>=48 && str[j]<=57){
+            mostrar[t] = str[j];
+            t++;
+        }
+        j++;
+    }
+
+    g = strlen(mostrar);
+    int vetor[g];
+
+    for(j=0; j<g; j++){
+        vetor[j] = mostrar[j]-48;
+    }
+
+    int maiorNumero = 0;
+    for(j=0; j<g; j++){
+        if(vetor[j] > maiorNumero){
+            maiorNumero = vetor[j];
+        }
+    }
+    eixox = maiorNumero;
+    while( eixox > 0){
+        for (eixoy=0; eixoy < g; eixoy++){
+            if (vetor[eixoy] >= eixox){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        eixox--;
+        printf("\n");
+
+    }
+}
