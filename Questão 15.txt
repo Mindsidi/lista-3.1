@@ -7,9 +7,9 @@ int main()
     char texto[100];
     int i,c, contar=0;
     printf("Digete umas palavras ou letras aleatorias para saber quantos |a| tem\n");
-    scanf(" %s", texto);
+    fgets(texto, 100, stdin);
     c = strlen(texto);
-    for(i=0;texto[i]!= '\0'; i++ ) {
+    for(i=0;i<c; i++ ) {
         if(texto[i]=='a') {
         contar++;
         }
@@ -17,5 +17,4 @@ int main()
 
     return 0;
 }
-
 
