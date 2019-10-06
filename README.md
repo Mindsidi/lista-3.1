@@ -1,3 +1,3 @@
 Componentes:
-Gabriel Souza
+Gabriel Souza,
 Fernando bardosa
